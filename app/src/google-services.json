@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "597271574675",
+    "project_id": "bidzi-313",
+    "storage_bucket": "bidzi-313.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597271574675:android:2b0ba0f2a9894de4f17566",
+        "android_client_info": {
+          "package_name": "com.bidzi.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdqs0n3KXWsdswP0VfO8eLM83NWax2_jM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597271574675:android:7b66fe115fc815e7f17566",
+        "android_client_info": {
+          "package_name": "com.bidzidriver.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdqs0n3KXWsdswP0VfO8eLM83NWax2_jM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

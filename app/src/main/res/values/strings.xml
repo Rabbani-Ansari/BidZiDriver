@@ -1,0 +1,155 @@
+<resources>
+    <string name="app_name">BidziDriver</string>
+
+
+    <!-- Supabase Configuration -->
+    <string name="supabase_url">https://kdfnhtbbmmelutllwizt.supabase.co</string>
+    <string name="supabase_key">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtkZm5odGJibW1lbHV0bGx3aXp0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjA5NTAzNzcsImV4cCI6MjA3NjUyNjM3N30.SbCSttxsPNNUQVNEDj0VMUHn3cRiq7yRRMhNZZNfEnM</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="back_button">Back</string>
+
+    <!-- Header -->
+    <string name="request_ride">Request Ride</string>
+
+    <!-- Route Preview -->
+    <string name="route_preview">Route preview</string>
+
+    <!-- Pickup & Drop -->
+    <string name="drop_location">Drop Location</string>
+
+    <!-- Ride Info -->
+
+    <!-- Ride Type -->
+    <string name="ride_type">Ride Type</string>
+
+    <!-- Bid Section -->
+    <string name="bid_price">Your Bid Price</string>
+    <string name="currency">Currency</string>
+
+    <!-- Add Note -->
+    <string name="add_note">Add Note (Optional)</string>
+
+    <!-- Info -->
+    <string name="info">Information</string>
+
+
+    <!-- Schedule Ride Screen -->
+    <string name="schedule_ride">Schedule Ride</string>
+    <string name="when_do_you_need_ride">When do you need the ride?</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="pick_a_date">Pick a date</string>
+    <string name="pickup">Pickup</string>
+    <string name="drop">Drop</string>
+    <string name="current_location">Current Location</string>
+    <string name="phoenix_mall">Phoenix Mall</string>
+    <string name="your_bid_price">Your Bid Price</string>
+    <string name="suggested_price_range">Suggested ₹%1$d - ₹%2$d</string>
+    <string name="scheduled_ride">Scheduled Ride</string>
+    <string name="driver_assignment_info">Driver will be assigned 15 minutes before your scheduled time</string>
+    <string name="schedule_ride_button">Schedule Ride - ₹%d</string>
+    <string name="please_select_date">Please select a date</string>
+    <string name="ride_scheduled">Ride scheduled for %s at %s</string>
+
+    <!-- Ride History Screen -->
+    <string name="ride_history">Ride History</string>
+    <string name="shared_badge">Shared</string>
+    <string name="from_location">From: %s</string>
+    <string name="with_passengers">With: %s</string>
+    <string name="distance_duration">%s • %s</string>
+
+
+    //
+
+    <!-- Google Maps API Key - Replace with your actual key -->
+    <string name="google_maps_key" translatable="false">AIzaSyA3dQmpKPChG5Cz9Nt0ieqdeNQurHGUlSk</string>
+
+    <!-- Map Screen -->
+    <string name="pickup_location">Pickup location</string>
+    <string name="where_to">Where to?</string>
+    <string name="my_location">My location</string>
+    <string name="destination">Destination</string>
+
+    <string name="route">Route</string>
+    <string name="pickup_address">Pickup address</string>
+    <string name="destination_address">Destination address</string>
+    <string name="confirm_ride">Confirm Ride</string>
+
+    <!-- Driver Tracking -->
+    <string name="driver_photo">Driver photo</string>
+    <string name="driver_name">Driver name</string>
+    <string name="vehicle_info">Vehicle info</string>
+    <string name="arriving_in">Arriving in</string>
+    <string name="call_driver">Call driver</string>
+
+    <!-- Permissions -->
+    <string name="location_permission_required">Location permission is required to book rides</string>
+    <string name="location_permission_denied">Location permission denied. Please enable it in settings.</string>
+
+    <!-- Errors -->
+    <string name="error_loading_map">Failed to load map</string>
+    <string name="error_getting_location">Failed to get your location</string>
+    <string name="error_no_route">No route found</string>
+    <string name="error_booking_ride">Failed to book ride</string>
+
+    <!-- Status Messages -->
+    <string name="searching_driver">Searching for driver…</string>
+    <string name="driver_assigned">Driver assigned!</string>
+    <string name="driver_arriving">Driver is on the way</string>
+    <string name="driver_arrived">Driver has arrived</string>
+    <string name="ride_started">Ride started</string>
+    <string name="ride_completed">Ride completed</string>
+
+    <!-- Weak GPS Fallback -->
+    <string name="weak_gps_signal">Weak GPS signal. Using last known location.</string>
+    <string name="location_updating">Updating location…</string>
+
+    <string name="available_drivers">Available Drivers</string>
+    <string name="your_bid">Your Bid: ₹%1$d</string>
+    <string name="drivers_accepted">%1$d drivers accepted • Choose the best offer</string>
+    <string name="from">FROM</string>
+    <string name="to">TO</string>
+    <string name="vehicle">VEHICLE</string>
+    <string name="eta">ETA</string>
+    <string name="confirmed">CONFIRMED</string>
+    <string name="best_offer">BEST OFFER</string>
+    <string name="accepted_bid">Accepted Bid</string>
+    <string name="counter_offer">Counter Offer</string>
+    <string name="just_now">Just now</string>
+    <string name="counter">Counter</string>
+    <string name="accept">Accept</string>
+    <string name="confirmed_text">Confirmed</string>
+    <string name="rating">⭐ %1$.1f</string>
+    <string name="trips">• %1$d trips</string>
+    <string name="price">₹%1$d</string>
+    <string name="savings">₹%1$d</string>
+    <string name="minutes">%1$d min</string>
+    <string name="back">Back</string>
+    <string name="ride_confirmed">Ride confirmed • Driver will arrive soon</string>
+
+
+    <!-- Notification Strings -->
+    <string name="notifications">Notifications</string>
+    <string name="mark_all_read">Mark all read</string>
+    <!-- Notifications Screen -->
+    <string name="all_read_message">All notifications marked as read</string>
+    <string name="no_notifications">No Notifications</string>
+    <string name="no_notifications_message">You\'re all caught up! New notifications will appear here.</string>
+    <string name="notification_icon">Notification icon</string>
+    <string name="delete_notification">Delete notification</string>
+    <string name="clear_all_notifications">Clear all notifications</string>
+    <string name="clear_all_confirm_title">Clear All Notifications</string>
+    <string name="clear_all_confirm_message">Are you sure you want to delete all notifications? This cannot be undone.</string>
+    <string name="clear_all">Clear All</string>
+    <string name="cancel">Cancel</string>
+    <string name="notification_deleted">Notification deleted</string>
+    <string name="all_notifications_cleared">All notifications cleared</string>
+    <string name="all_marked_as_read">All notifications marked as read</string>
+    <string name="failed_to_load">Failed to load notifications</string>
+    <string name="failed_to_mark_read">Failed to mark as read</string>
+    <string name="failed_to_delete">Failed to delete notification</string>
+
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="24dp"
+    android:maxWidth="400dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Alert Icon -->
+        <ImageView
+            android:id="@+id/ivAlertIcon"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/ic_offline" />
+
+        <!-- Alert Title -->
+        <TextView
+            android:id="@+id/tvAlertTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:maxLines="2"
+            android:text="Alert Title"
+            android:textColor="@color/text_dark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Alert Message -->
+        <TextView
+            android:id="@+id/tvAlertMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:maxLines="4"
+            android:text="Alert message goes here"
+            android:textColor="@color/text_medium"
+            android:textSize="14sp" />
+
+        <!-- Primary Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Primary Action"
+            android:textSize="16sp"
+            app:cornerRadius="12dp" />
+
+        <!-- Secondary Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSecondary"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:fontFamily="sans-serif"
+            android:text="Secondary Action"
+            android:textSize="16sp"
+            app:cornerRadius="12dp"
+            app:strokeWidth="2dp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

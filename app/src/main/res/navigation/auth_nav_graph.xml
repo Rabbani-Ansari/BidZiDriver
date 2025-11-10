@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/auth_nav_graph"
+    app:startDestination="@id/customerSignUpFragment">
+
+    <fragment
+        android:id="@+id/customerSignUpFragment"
+        android:name="com.bidzidriver.app.auth.DriverSignUpFragment"
+        android:label="CustomerSignUpFragment">
+
+        <action
+            android:id="@+id/action_customerSignUp_to_otpVerification"
+            app:destination="@id/otpVerificationFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/otpVerificationFragment"
+        android:name="com.bidzidriver.app.auth.OtpVerificationFragment"
+        android:label="OtpVerificationFragment">
+
+        <argument
+            android:name="verificationId"
+            app:argType="string" />
+
+        <argument
+            android:name="phone"
+            app:argType="string" />
+
+        <argument
+            android:name="resendToken"
+            app:argType="com.google.firebase.auth.PhoneAuthProvider$ForceResendingToken"
+            app:nullable="true" />
+    </fragment>
+</navigation>

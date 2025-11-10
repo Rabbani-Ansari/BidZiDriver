@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Outer hollow location pin -->
+    <path
+        android:pathData="M12,2
+                          C7.58,2 4,5.58 4,10
+                          c0,5.25 8,12 8,12
+                          s8,-6.75 8,-12
+                          c0,-4.42 -3.58,-8 -8,-8z"
+        android:strokeColor="#FFA500"
+        android:strokeWidth="1.8"
+        android:fillColor="@android:color/transparent"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round" />
+
+    <!-- Inner hollow circle -->
+    <path
+        android:pathData="M12,7
+                          a3,3 0 1,1 0,6
+                          a3,3 0 1,1 0,-6z"
+        android:strokeColor="#FFA500"
+        android:strokeWidth="1.5"
+        android:fillColor="@android:color/transparent" />
+</vector>

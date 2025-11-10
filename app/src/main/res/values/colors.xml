@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Driver App Primary Colors - GREEN THEME -->
+    <color name="driver_green">#4CAF50</color>
+    <color name="driver_green_dark">#2E7D32</color>
+    <color name="driver_green_light">#66BB6A</color>
+    <color name="driver_green_bg">#E8F5E9</color>
+    <color name="driver_green_accent">#81C784</color>
+
+    <!-- Base Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#F44336</color>
+    <color name="green">#4CAF50</color>
+
+    <!-- Gray Shades -->
+    <color name="dark_gray">#212121</color>
+    <color name="medium_gray">#757575</color>
+    <color name="light_gray">#F5F5F5</color>
+    <color name="light_gray_bg">#EEEEEE</color>
+    <color name="light_medium_gray">#BDBDBD</color>
+    <color name="gray_light">#F5F5F5</color>
+    <color name="gray_medium">#999999</color>
+    <color name="gray_dark">#666666</color>
+    <color name="gray">#9E9E9E</color>
+    <color name="light_gray_text">#9E9E9E</color>
+
+    <!-- Other Accent Colors -->
+    <color name="yellow_light">#FFF9E6</color>
+    <color name="yellow_accent">#FFB300</color>
+    <color name="blue">#2196F3</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="teal_200">#FF03DAC5</color>
+
+    <!-- Status Colors for Driver -->
+    <color name="green_light">#A5D6A7</color>
+    <color name="green_dark">#2E7D32</color>
+    <color name="red_light">#FFEBEE</color>
+    <color name="red_dark">#C62828</color>
+    <color name="orange">#FFA500</color>
+    <color name="orange_light">#FFB74D</color>
+    <color name="orange_dark">#F57C00</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#333333</color>
+    <color name="text_dark">#212121</color>
+    <color name="text_medium">#616161</color>
+    <color name="text_light">#9E9E9E</color>
+
+    <!-- Background Colors -->
+    <color name="background">#F5F5F5</color>
+    <color name="logout_bg">#FFEBEE</color>
+
+    <!-- Vehicle Selection Colors -->
+    <color name="primary_color">#4CAF50</color>
+    <color name="light_primary">#E8F5E9</color>
+    <color name="stroke_gray">#E0E0E0</color>
+
+    <!-- Bottom Navigation - Driver Theme -->
+    <color name="bottom_nav_selected">#4CAF50</color>
+    <color name="bottom_nav_unselected">#8E8E93</color>
+    <color name="bottom_nav_background">#FFFFFF</color>
+    <color name="bottom_nav_active">#4CAF50</color>
+    <color name="bottom_nav_inactive">#BDBDBD</color>
+
+    <!-- Notification Colors -->
+    <color name="notification_unread_bg">#F1F8E9</color>
+    <color name="notification_read_bg">#FFFFFF</color>
+
+    <!-- Route & Map Colors -->
+    <color name="route_color">#4285F4</color>
+    <color name="your_status_bar_color">#848896</color>
+
+    <color name="accent_orange">#FFA500</color>
+</resources>
