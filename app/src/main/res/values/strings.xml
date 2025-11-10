@@ -3,8 +3,9 @@
 
 
     <!-- Supabase Configuration -->
-    <string name="supabase_url">https://kdfnhtbbmmelutllwizt.supabase.co</string>
-    <string name="supabase_key">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtkZm5odGJibW1lbHV0bGx3aXp0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjA5NTAzNzcsImV4cCI6MjA3NjUyNjM3N30.SbCSttxsPNNUQVNEDj0VMUHn3cRiq7yRRMhNZZNfEnM</string>
+
+    <string name="supabase_url">PLACEHOLDER_URL</string>
+   <string name="supabase_key">PLACEHOLDER_KEY</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
@@ -65,7 +66,7 @@
     //
 
     <!-- Google Maps API Key - Replace with your actual key -->
-    <string name="google_maps_key" translatable="false">AIzaSyA3dQmpKPChG5Cz9Nt0ieqdeNQurHGUlSk</string>
+    <string name="google_maps_key" translatable="false">PLACEHOLDER_MAP_KEY</string>
 
     <!-- Map Screen -->
     <string name="pickup_location">Pickup location</string>
